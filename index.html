@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/804e505a03.js" crossorigin="anonymous" defer></script>
 </head>
+
 <body>
     <header>
-
+        <h1>Login-Helper</h1>
     </header>
     <main>
+        <form>
+            <section class="inputs-container">
+                <input type="email" placeholder="example@gmail.com">
 
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="**********">
+                    <i></i>
+                    <i></i>
+                </div>
+
+            </section>
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha?</span>
+                </div>
+                <a href="#">Esqueceu sua senha?</a>
+
+            </section>
+            <button id="btn-login">Login
+            </button>
+
+            <section class="links-container">
+                <span>Ou entre com: </span>
+                <aside>
+                    <a href="#"><i></i></a>
+                    <a href="#"><i></i></a>
+                    <a href="#"><i></i></a>
+                </aside>
+            </section>
+            <footer>
+                <hr>
+                <span> Ainda não tem uma conta? <a href="#">Cadastre-se</a> </span>
+            </footer>
+        </form>
     </main>
 </body>
 </html>
