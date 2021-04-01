@@ -26,7 +26,7 @@ main {
     background: linear-gradient(to right, #18acfe, #0166e1);
     display: flex;
     justify-content: center;
-    box-shadow: inset 0px 2px 3px rgba(0,  0, 0, 0,25);
+    box-shadow: inset 0px 2px 3px rgba(0,  0, 0, 0.25);
 }
 
 main form {
@@ -123,3 +123,72 @@ main form button:hover {
  background-color: #fff;
  color:#18acfe;
 }
+
+main form .links-container {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 10%;
+
+}
+
+main form .links-container span {
+    font-size: 0.8en;
+    font-weight: 600;
+
+}
+
+main form .links-container aside {
+   margin-top: 5%;
+   width: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   
+}
+
+main form .links-container aside i {
+  font-size: 1.6en;
+  background-color: #fff;
+  padding: 8px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+main form .links-container aside .google {
+ color: #e34133;
+
+}
+
+main form .links-container aside .google:hover{
+    background-color: #e34133;
+    color: #fff;
+}
+
+main form .links-container aside .linkedin {
+    color: #0a66c2;
+   
+   }
+   
+   main form .links-container aside .linkedin:hover{
+       background-color: #0a66c2;;
+       color: #fff;
+   }
+
+   main form .links-container aside .github {
+    color: #000;
+   
+   }
+   
+   main form .links-container aside .github:hover{
+       background-color: #000;
+       color: #fff;
+   }
